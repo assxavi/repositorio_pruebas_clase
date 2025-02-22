@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "IndexFont";
+    src: url("Breaking\ Bad.ttf");
+}
+.main {
+    font-family: "IndexFont";
+    color:white;
+    text-align: center;
+    font-size: 35px;
+    background-image: url("../IMG/fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.tabla{
+    font-family: "Helvetica";
+    text-align: center;
+    background-color: #0c3e11;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+}
+.poster{
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+table, tr, td{
+    background-color: #2b2d22;
+    text-align: center;
+    font-family: "Helvetica";
+    border:2px solid #2b2d22;
+    color: #2b2d22;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#simbolo{
+    font-size: 40px; 
+    font-weight: bold;
+    color: #2b2d22;
+}
+td{
+    table-layout: fixed;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    color: #2b2d22;
+}
+.elemento{
+    width: 50px;
+    height: 50px;
+}
+.elemento2{  
+    width: 70px;
+}
+#verde{
+    background-color: #b7dc1d;
+}
+#verde2{
+    background-color: #8ba811;
+}
+#verde3{
+    background-color: #637124;
+}
+
+#morado{
+    background-color: #ac8fd1;
+}
+#beige{
+    background-color: #eef5c8;
+}
+#beis{
+    background-color: #daef76;
+}
+
+#lima{
+    background-color: #c6e34a;
+}
+#gris{
+    background-color: #bcc39f;
+}
+#kaki{
+    background-color: #818e4e;
+}
+#moustaza{
+    background-color: #c5c62a;
+}
+
+h1{
+    font-family: "Helvetica";
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 50px;
+}
+form {
+    box-shadow: #ffffff;
+    width: cover;
+    font-family: "Helvetica";
+    text-align: center;
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    text-overflow: clip;
+    text-align: center;
+}
+
+input {
+    padding: 5px 5px;
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+    border-color: #ffffff;
+
+}
+fieldset {
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border-color: black;
+    padding: 5px;
+}
+
+#datos{
+    width: 15%;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+ }
+
+#numero{
+    width: 3%;
+}
+
+#comentarios{
+    width: 30%;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    
+}

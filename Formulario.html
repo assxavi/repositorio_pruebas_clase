@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yeray Valdepeñas" >
+    <link rel="icon" href="IMG/icon.png" type="image/icon">
+    <link rel="stylesheet" href="CSS/BreakingBad.css">
+    <title>Formulario BreakingBad</title>
+</head>
+<body class="main">
+    <h1>Breaking Bad - Que comience el juego!</h1>
+    <form name="Formulario" method="post" action="mailto:raul.rodriguez@proeducaglobal.com">
+        <fieldset>
+            <legend>FICHA DEL USUARIO</legend>
+            <br>
+            <fieldset>
+                <legend>DATOS PERSONALES</legend>
+                <br>
+                Nombre
+                <input id="datos" type="text" placeholder="ej: Yeray" required>
+                <br>
+                <br>Apellidos   
+                 <input id="datos" type="text" placeholder="ej: Valdepeñas Terrero" required>
+                <br>
+                <br>DNI    
+                <input id="datos" type="text" placeholder="ej: XXXXXXXXL">
+                <br>
+                <br>Email
+                  <input type="email" name="mail" id="datos" placeholder="ej: yerayval@unir.es" required>
+                <br>
+                <br>Sexo del Usuario:
+                    <label>
+                        <input type="radio" name="sexo" value="H">  Hombre
+                        <input type="radio" name="sexo" value="M">  Mujer
+                    </label>
+                <br>
+                <br>Fecha de Nacimiento <input type="date" name="" id="">
+                <br>
+                <br>
+                <fieldset>
+                <legend>DIRECCION POSTAL</legend>
+                <br>
+                Calle  <input type="text" placeholder="Calle...">
+                Número <input id="numero" type="text" placeholder="12...">
+                Piso  <input id="numero" type="text" placeholder="1º...">
+                <br><br>
+                Código Postal <input type="text" placeholder="21456...">
+                Ciudad <input type="text" placeholder="San Sebastian...">
+                País  <input type="text" placeholder="Letonia...">
+                <br><br>
+            </fieldset>
+            </fieldset>
+            <br>
+            <fieldset>
+                
+                <legend>PERSONAJE</legend>
+                
+                Seleccione opción  <input list="Personaje">
+                    <datalist id="Personaje">
+                        <option value="Jessie Pinkman"></option>
+                        <option value="Walter White"></option>
+                        <option value="Saul Goodman"></option>
+                        <option value="Gustavo Fring"></option>
+                        <option value="Pollos Hermanos"></option>
+                        <option value="Otros personajes"></option>
+                    </datalist>
+                <br><br>
+            </fieldset>
+            <br>Comentarios <br><textarea name="opiniones" id="comentarios" cols="50" rows="5" minlength="5" maxlength="240" 
+              placeholder="No pensaba que ..."></textarea>
+              <br><br>
+            <br><input type="submit" value="Enviar"> <input type="reset" value="Eliminar"> <input type="file" name="" id="datos" value="Adjuntar Archivos" accept=".pdf, .png" multiple>
+            <br><br>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
